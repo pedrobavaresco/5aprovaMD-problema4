@@ -85,15 +85,6 @@ def interpolation_search_verified(A: list, v: int) -> int:
     assert v not in A, "Erro: A pos-condicao falhou na terminacao!"
     return idx
 
-    Com certeza! Aqui está a estrutura limpa e contínua, sem os marcadores de citação.
-
-Sobre a sua dúvida: **o Data Set não precisa obrigatoriamente ficar em um arquivo separado.** Como o professor disponibilizou conjuntos de dados bem pequenos no PDF (apenas uma lista e um valor para testar), a prática padrão e mais ágil é colocá-los diretamente no bloco de execução do próprio arquivo Python (`if __name__ == "__main__":`), exatamente como montei abaixo.
-
-Isso facilita a correção do professor, pois ele só precisa baixar o arquivo e dar um "Play" para ver o teste rodar e a falha acontecer. Separar em um arquivo `.json` ou `.txt` só valeria a pena se o volume de dados fosse massivo (milhares de linhas).
-
-Aqui está o código completo para o seu arquivo `busca_interpolacao.py`:
-
-```python
 # =====================================================================
 # VERSÃO 1: CÓDIGO COM BUG INSTRUMENTADO (Dispara a falha de terminação)
 # =====================================================================
